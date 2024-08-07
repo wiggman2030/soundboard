@@ -14,38 +14,38 @@
             <div><h3>Previous</h3></div>
         </div>
         <div class ="container-main">
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('anna')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('anna 20x')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('Armadillo')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('beat up')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('blackjack')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('anna', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('anna 20x', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('Armadillo', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('beat up', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('blackjack', 'vaan')" alt=""></div>
             <div class="item-tag"><h3>Anna</h3></div>
             <div class="item-tag"><h3>Lots of Anna</h3></div>
             <div class="item-tag"><h3>Armadillo</h3></div>
             <div class="item-tag"><h3>Beat Up</h3></div>
             <div class="item-tag"><h3>Blackjack</h3></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('bop')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('chicken nugget')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('delcious')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('hu')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('minecraft')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('bop', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('chicken nugget', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('delcious', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('hu', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('minecraft', 'vaan')" alt=""></div>
             <div class="item-tag"><h3>Bop</h3></div>
             <div class="item-tag"><h3>Butt Nugget</h3></div>
             <div class="item-tag"><h3>Chicken nuggooots</h3></div>
             <div class="item-tag"><h3>Hu</h3></div>
             <div class="item-tag"><h3>Minecraft</h3></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('my baby')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('obuga')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('pig')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('sweaty')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('toes')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('my baby', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('obuga', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('pig', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('sweaty', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('toes', 'vaan')" alt=""></div>
             <div class="item-tag"><h3>Fafnir</h3></div>
             <div class="item-tag"><h3>Obuga</h3></div>
             <div class="item-tag"><h3>Pig</h3></div>
             <div class="item-tag"><h3>Sweaty</h3></div>
             <div class="item-tag"><h3>Toes</h3></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('turd_1')" alt=""></div>
-            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('why')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('turd_1', 'vaan')" alt=""></div>
+            <div class ="item"><img src="./images/vaan-head.jpg" onclick="playSound('why', 'vaan')" alt=""></div>
             <div class ="item1"><img src="./images/vaan-head1.jpg" onclick="playSound('')" alt=""></div>
             <div class ="item1"><img src="./images/vaan-head1.jpg" onclick="playSound('')" alt=""></div>
             <div class ="item1"><img src="./images/vaan-head1.jpg" onclick="playSound('')" alt=""></div>
@@ -71,13 +71,7 @@
             <div><h3>Next</h3></div>
         </div>
     </div>
-    <script>
-        function playSound (sound) {
-            let path = "./sounds/vaan/";
-            const snd = new Audio(path + sound + ".mp3");
-            snd.currentTime = 0;
-            snd.play();
-        }
-    </script>
+
+    <script src="script.js"></script>
 </body>
 </html>
