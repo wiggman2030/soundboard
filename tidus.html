@@ -14,38 +14,38 @@
             <div><h3>Previous</h3></div>
         </div>
         <div class ="container-main">
-            <div class ="item" id="one"><img src="./images/tidus head.jpg" onclick="playSound('burp')"></div>
-            <div class ="item two"><img src="./images/tidus head.jpg" onclick="playSound('burp x2')" alt=""></div>
-            <div class ="item three"><img src="./images/tidus head.jpg" onclick="playSound('chicken')" alt=""></div>
-            <div class ="item four"><img src="./images/tidus head.jpg" onclick="playSound('fart')" alt=""></div>
-            <div class ="item five"><img src="./images/tidus head.jpg" onclick="playSound('guff')" alt=""></div>
+            <div class ="item" id="one"><img src="./images/tidus head.jpg" onclick="playSound('burp', 'tidus')"></div>
+            <div class ="item two"><img src="./images/tidus head.jpg" onclick="playSound('burp x2', 'tidus')" alt=""></div>
+            <div class ="item three"><img src="./images/tidus head.jpg" onclick="playSound('chicken', 'tidus')" alt=""></div>
+            <div class ="item four"><img src="./images/tidus head.jpg" onclick="playSound('fart', 'tidus')" alt=""></div>
+            <div class ="item five"><img src="./images/tidus head.jpg" onclick="playSound('guff', 'tidus')" alt=""></div>
             <div class="item-tag"><h3>Burp</h3></div>
             <div class="item-tag"><h3>Double Burp</h3></div>
             <div class="item-tag"><h3>Chicken</h3></div>
             <div class="item-tag"><h3>Fart</h3></div>
             <div class="item-tag"><h3>Guff</h3></div>
-            <div class ="item six"><img src="./images/tidus head.jpg" onclick="playSound('jagger')" alt=""></div>
-            <div class ="item seven"><img src="./images/tidus head.jpg" onclick="playSound('lemon')" alt=""></div>
-            <div class ="item eight"><img src="./images/tidus head.jpg" onclick="playSound('mari')" alt=""></div>
-            <div class ="item nine"><img src="./images/tidus head.jpg" onclick="playSound('mungus')" alt=""></div>
-            <div class ="item ten"><img src="./images/tidus head.jpg" onclick="playSound('nanalan')" alt=""></div>
+            <div class ="item six"><img src="./images/tidus head.jpg" onclick="playSound('jagger', 'tidus')" alt=""></div>
+            <div class ="item seven"><img src="./images/tidus head.jpg" onclick="playSound('lemon', 'tidus')" alt=""></div>
+            <div class ="item eight"><img src="./images/tidus head.jpg" onclick="playSound('mari', 'tidus')" alt=""></div>
+            <div class ="item nine"><img src="./images/tidus head.jpg" onclick="playSound('mungus', 'tidus')" alt=""></div>
+            <div class ="item ten"><img src="./images/tidus head.jpg" onclick="playSound('nanalan', 'tidus')" alt=""></div>
             <div class="item-tag"><h3>kind of sussy</h3></div>
             <div class="item-tag"><h3>lemon</h3></div>
             <div class="item-tag"><h3>mari</h3></div>
             <div class="item-tag"><h3>mungus</h3></div>
             <div class="item-tag"><h3>nanalan yeah</h3></div>
-            <div class ="item eleven"><img src="./images/tidus head.jpg" onclick="playSound('ooooo')" alt=""></div>
-            <div class ="item twelve"><img src="./images/tidus head.jpg" onclick="playSound('senchi')" alt=""></div>
-            <div class ="item thirteen"><img src="./images/tidus head.jpg" onclick="playSound('skibidi')" alt=""></div>
-            <div class ="item fouteen"><img src="./images/tidus head.jpg" onclick="playSound('sleep')" alt=""></div>
-            <div class ="item fifteen"><img src="./images/tidus head.jpg" onclick="playSound('sleepupgraded')" alt=""></div>
+            <div class ="item eleven"><img src="./images/tidus head.jpg" onclick="playSound('ooooo', 'tidus')" alt=""></div>
+            <div class ="item twelve"><img src="./images/tidus head.jpg" onclick="playSound('senchi', 'tidus')" alt=""></div>
+            <div class ="item thirteen"><img src="./images/tidus head.jpg" onclick="playSound('skibidi', 'tidus')" alt=""></div>
+            <div class ="item fouteen"><img src="./images/tidus head.jpg" onclick="playSound('sleep', 'tidus')" alt=""></div>
+            <div class ="item fifteen"><img src="./images/tidus head.jpg" onclick="playSound('sleepupgraded', 'tidus')" alt=""></div>
             <div class="item-tag"><h3>oooooh</h3></div>
             <div class="item-tag"><h3>Senshi!</h3></div>
             <div class="item-tag"><h3>Skibidi toilet</h3></div>
             <div class="item-tag"><h3>Sleep</h3></div>
             <div class="item-tag"><h3>Upgraded Sleep</h3></div>    
-            <div class ="item"><img src="./images/tidus head.jpg" onclick="playSound('pufferfish')" alt=""></div>
-            <div class ="item"><img src="./images/tidus head.jpg" onclick="playSound('rueoogh')"></div>
+            <div class ="item"><img src="./images/tidus head.jpg" onclick="playSound('pufferfish', 'tidus')" alt=""></div>
+            <div class ="item"><img src="./images/tidus head.jpg" onclick="playSound('rueoogh', 'tidus')"></div>
             <div class ="item1"><img src="./images/tidus1 head.jpg" alt=""></div>
             <div class ="item1"><img src="./images/tidus1 head.jpg" alt=""></div>
             <div class ="item1"><img src="./images/tidus1 head.jpg" alt=""></div>
@@ -72,14 +72,6 @@
             <div><h3>Next</h3></div>
         </div>
     </div>
-
-    <script>
-        function playSound (sound) {
-            let path = "./sounds/tidus/";
-            const snd = new Audio(path + sound + ".mp3");
-            snd.currentTime = 0;
-            snd.play();
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
